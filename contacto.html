@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contacto | Guitar Sounds</title>
+<meta charset="UTF-8">
+<!-- ESTILOS GLOBALES -->
+<link rel="stylesheet" type="text/css" href="styles/global.css">
+<!-- ESTILOS ÚNICOS DE ./contacto.html -->
+<link rel="stylesheet" type="text/css" href="styles/contacto.css">
+<!-- FAVICON -->
+<link rel="icon" href="assets/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+<!-- CAJA CONTENEDORA DE TODA LA PÁGINA -->
+<div class="pagina">
+<!-- INICIO DE HEADER -->
+<header>
+<a href="index.html"><img src="assets/logo_grande2.png"></a>
+<nav>
+    <a href="index.html">INICIO</a>
+    <a href="explora.html">EXPLORA</a>
+    <a href="galeria.html">GALERÍA</a>
+    <a href="contacto.html" class="pagina_actual">CONTACTO</a>
+</nav>
+</header><!-- CIERRE DE HEADER -->
+
+<!-- INICIO DE MAIN -->
+<main>
+    <div class="cabecera_main">
+        <h1>CONTACTA CON NOSOTROS</h1>
+    
+        <form action="">
+        <label for="buscador">Buscar:</label>
+        <input type="search" name="buscador" id="buscador"
+        placeholder="Escribe algo aquí...">
+        </form>
+    </div>
+    <hr>
+    <div id="seccion_contacto1">
+        <h2>ESCRÍBENOS UN MENSAJE</h2>
+        <span>Dinos tu opinión, sugerencias y manda artículos que sean interesantes para publicar.</span>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" maxlength="30" id="name" required
+            placeholder="Escribe tu nombre..."><br>
+            
+            <label for="lastname">Apellidos:</label>
+            <input type="text" maxlength="50" id="lastname" required
+            placeholder="Escribe tus apellidos..." size="30"><br>
+            
+            <label for="adress">Dirección:</label>
+            <input type="text" max="60" id="adress"
+            placeholder="Escribe tu dirección..." size="40"><br>
+
+            <label for="mail">Correo electrónico:</label>
+            <input type="email" id="mail" required
+            placeholder="Escribe tu correo electrónico..."><br>
+
+            <div id="textbox">
+                <label>Escribe tu mensaje:</label><br>
+                <textarea cols="40" rows="5" maxlength="256"
+                placeholder="Max. 256..." required>
+                </textarea><br>
+            </div>
+            
+            <input type="submit" value="Enviar Mensaje" id="submit">
+            <input type="reset" value="Limpiar Formulario" id="reset">
+                </form>
+    </div>
+   
+</main>
+<hr>
+
+<!-- INICIO FOOTER -->
+<footer>
+    <span>Estás en la página CONTACTO. Usa este menú avanzado para moverte más rápido por la página.</span>
+    <div>
+        <div>
+            <a href="index.html" class="footer_titulos">INICIO</a><br>
+            <a href="index.html#seccion_index1">La guitarra eléctrica</a><br>
+            <a href="index.html#seccion_index1_2">Qué puedes encontrar en este sitio</a><br>
+            <a href="index.html#seccion_index2">Próximos eventos</a>
+        </div>
+        <div>
+            <a href="explora.html" class="footer_titulos">EXPLORA</a><br>
+            <a href="explora.html#seccion_explora1">Tienda de Artículos</a><br>
+            <a href="explora.html#seccion_explora2">Vídeo semanal</a><br>
+        </div>
+        <div>
+            <a href="galeria.html" class="footer_titulos">GALERÍA</a><br>
+            <a href="galeria.html#seccion_galeria1">Descarga increíbles fondos</a><br>
+        </div>
+        <div>
+            <a href="contacto.html" class="footer_titulos">CONTACTO</a><br>
+            <a href="#seccion_contacto1">Escríbenos un mensaje</a><br>
+
+        </div>
+        </div>
+</footer><!-- CERRAR INICIO -->
+
+
+<!-- Elementos superpuestos-->
+<!-- Flecha de retorno -->
+
+<a href="contacto.html" class="flecha_retorno"><img src="assets/up-arrow.png"></a>
+
+
+</body>
+
+</html>

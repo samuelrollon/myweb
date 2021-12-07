@@ -1,0 +1,208 @@
+#seccion_explora1{
+    background-color: #333533;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px 0px 20px 20px;
+    overflow: hidden;
+}
+
+#seccion_explora1 h2{
+    color: white;
+    background-color: #474747;
+    margin: 0px 0px 10px 0px;
+    padding-left: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#seccion_explora1 span{
+    color: white;
+}
+
+
+#tienda{
+    margin-top: 10px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+#tienda div{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    border-top: 2px solid white;
+}
+
+#tienda span{
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#tienda input{
+    clear: both;
+    height: 20px;
+    margin-top: 10px;
+}
+
+#tienda details{
+    width: 30%;
+    float: left;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+#tienda table{
+    border: 1px white solid;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+#tienda table td{
+    border: solid white 1px;
+    border-collapse: collapse;
+    padding: 2px;
+}
+
+.td_negrita{
+    font-weight: bold;
+}
+
+#tienda img{
+    width: 40%;
+    float: right;
+    border-radius: 20px;
+    margin-top: 5px;
+    transition: 0.05s;
+}
+
+#tienda img:hover{
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    right: 25%;
+    top: 0px;
+    margin-top: 0px;
+}
+
+.compra{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#final_compra #button_submit{
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+#final_compra #button_reset{
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+#button_submit:hover{
+    background-color: rgb(169, 235, 72);
+}
+
+#button_submit:focus{
+    background-color: rgb(127, 202, 13);
+    color: white;
+    font-weight: bold;
+}
+
+#button_reset:hover{
+    background-color: rgb(241, 127, 127);
+}
+
+#button_reset:focus{
+    background-color: rgb(218, 49, 49);
+    color: white;
+    font-weight: bold;
+}
+
+#seccion_explora2{
+    background-color: #333533;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px 0px 20px 20px;
+    overflow: hidden;
+}
+
+#seccion_explora2 h2{
+    color: white;
+    background-color: #474747;
+    margin: 0px 0px 10px 0px;
+    padding-left: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#seccion_explora2 span{
+    color: white;
+}
+
+#seccion_explora2 a{
+    color: white;
+    font-weight: bold;
+}
+
+#seccion_explora2 video{
+    margin-top: 20px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#seccion_explora3{
+    background-color: black;
+    border-radius: 20px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+#seccion_explora3 h2{
+    color: white;
+    margin-left: 20px;
+}
+
+#seccion_explora3 span{
+    color: white;
+    margin-left: 20px;
+}
+
+#seccion_explora3 img{
+    width: 100%;
+}
+
+#sexta{
+    height: 10px;
+}
+
+#quinta{
+    height: 10px;
+}
+
+#cuarta{
+    height: 10px;
+}
+
+#tercera{
+    height: 5px;
+}
+
+#segunda{
+    height: 5px;
+}
+
+#primera{
+    height: 5px;
+}
+
+#inicio_cuerdas{
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

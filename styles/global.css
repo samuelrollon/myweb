@@ -1,0 +1,149 @@
+/* HTML BODY*/
+
+body{
+    background-color: #1c1c1c;
+    margin: 0px;
+} 
+
+.pagina{
+    margin: 1% 10% 0% 10%;
+}
+
+hr{
+    color:#fefc81;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+}
+
+header img{
+    width: 150px;
+    border: #fefc81 1px solid;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* NAV */
+
+nav{
+    width: 99%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 40px;
+    padding-left: 40px;
+    border: #fefc81 1px solid;
+    border-radius: 0px 10px 10px 0px;
+    background-image: url("../assets/nav-back.png");
+    background-repeat:repeat;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    background-color: #333533;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 50px;
+	transition: 0.5s;
+}
+
+header nav a:hover{
+    background-color: #fefc81;
+    color: black;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.pagina_actual{
+	background-image: url("../assets/pick-selected.png");
+	background-repeat: no-repeat;
+	background-position: center-left;
+	background-color: #fefc81;
+    color: black;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+/* MAIN */
+
+/* CABECERA MAIN */
+
+.cabecera_main{
+    display: flex;
+}
+
+.cabecera_main h1{
+    color: white;
+    font-family: arial;
+    margin-bottom: 5px;
+}
+
+.cabecera_main form{
+    border-radius: 5px;
+    margin-left: auto;
+    padding-top: 20px;
+}
+
+.cabecera_main form label{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cabecera_main form input{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: #fefc81;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    clear: both;
+}
+
+footer > div{
+    display: flex;
+    padding-top: 10px;
+    width: 99%;
+}
+
+footer div div{
+	margin-left: 10%
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    color: #1c1c1c;
+}
+
+.footer_titulos{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* ELEMENTOS SUPERPUESTOS */
+
+/* Flecha de retorno*/
+
+.flecha_retorno{
+    position: fixed;
+    width: 3%;
+    bottom: 20px;
+    left: 30px;
+}

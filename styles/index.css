@@ -1,0 +1,163 @@
+
+/* SECCION INDEX 1 */
+
+#seccion_index1{
+    background-color: #333533;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px 0px 20px 20px;
+}
+
+#seccion_index1 h2{
+    color: white;
+    background-color: #474747;
+    margin: 0px 0px 10px 0px;
+    padding-left: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#seccion_index1_1{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+#seccion_index1_1 p{
+    color: white;
+    margin: 0px 0px 0px 0px;
+    word-spacing: 6px;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+#seccion_index1_1 p span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#seccion_index1_1 p a{
+    color: white;
+}
+
+#seccion_index1_1 table{
+    color: white;
+    width: 400px;
+    margin-right: 10px;
+    border: 1px grey solid;
+    border-collapse: collapse;
+}
+
+#seccion_index1_1 table td{
+    text-align: center;
+    border: 1px grey solid;
+    font-size: 17px;
+}
+
+#seccion_index1_1 table img{
+    width: 200px;
+}
+
+/* SECCION INDEX 1_2*/
+
+#seccion_index1_2{
+    background-color: transparent;
+}
+
+#seccion_index1_2 p{
+    color: white;
+}
+
+#seccion_index1_2 p span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#cajas_index{
+    display: flex;
+    padding-top: 10px;
+}
+
+#cajas_index a{
+    text-decoration: none;
+    color: #1c1c1c;
+    background-color: #fefc81;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#cajas_index a:hover{
+    background-color: #fffeb3;
+    background-image: url("../assets/pick-selected.png");
+    background-repeat: repeat-y;
+}
+
+#cajas_index a span{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+#cajas_index p{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* SECCION INDEX 2 */
+
+#seccion_index2{
+    background: black;
+    padding: 20px 0px 20px 20px;
+    border-radius: 20px 20px 20px;
+    background-image: linear-gradient(to right, black , #1c1c1c);
+}
+
+#seccion_index2 h2{
+    color: white;
+    background-color: #1c1c1c;
+    padding-left: 20px;
+    margin-top: 0px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#seccion_index2 table{
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+    width: 99%;
+}
+
+#fila1_index td{
+    padding: 10px 5px 5px 5px
+}
+
+#fila1_index{
+    width: 400px;
+}
+
+#fila1_index img{
+    height: 99%;
+    width: 99%;
+    border-radius: 0px 70px 70px 0px;
+    transition: 0.5s;
+}
+
+#fila1_index a:hover{
+    opacity: 0.6;
+}
+
+#fila2_index{
+    background-color: transparent;
+}
+
+#fila2_index td{
+    color: white;
+    width: 10%;
+    text-align: center;
+}
+
+
+
+/*nth.child*/

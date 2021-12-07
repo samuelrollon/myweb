@@ -1,0 +1,55 @@
+#seccion_contacto1{
+    background-color: #333533;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px 0px 20px 20px;
+    overflow: hidden;
+}
+
+#seccion_contacto1 h2{
+    color: white;
+    background-color: #474747;
+    margin: 0px 0px 10px 0px;
+    padding-left: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#seccion_contacto1 span{
+    color: white;
+}
+
+#seccion_contacto1 form label{
+    color: white;
+    font-weight: bold;
+    border-bottom: solid #fffeb3 1px;
+}
+
+#seccion_contacto1 form input{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#textbox{
+    margin-top: 20px;
+}
+#submit, #reset{
+width: 200px;
+height: 40px;
+margin-left: 20px;
+border-radius: 10px;
+}
+
+#submit:hover{
+    background-color: #fffeb3;
+}
+
+#reset:hover{
+    background-color: #fffeb3;
+}
+
+#submit:focus{
+    background-color: #e0de6b;
+}
+
+#reset:focus{
+    background-color: #ee5651;
+}
